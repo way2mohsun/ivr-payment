@@ -1,0 +1,21 @@
+{"appenders": [
+    {
+        "type": "console",
+        "layout": {
+            "type": "pattern",
+            "pattern": "%m"
+        },
+        "category": "app"
+    },{
+        "category": "proxy",
+        "type": "file",
+        "filename": "error.log",
+        "maxLogSize": 10240,
+        "backups": 3,
+        "layout": {
+            "type": "pattern",
+            "pattern": "%d{yyyy-MM-dd hh:mm:ss} %-5p %m"
+        }
+    }
+],
+"replaceConsole": true }

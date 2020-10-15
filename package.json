@@ -1,0 +1,20 @@
+{
+  "name" : "ivr-payment",
+  "version" : "0.0.1",
+  "main" : "./index.js",
+  "author" : {
+    "name" : "mohsun",
+    "email" : "you@email.example"
+  },
+  "keywords" : [ ],
+  "licenses" : {
+    "type" : "none"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/YOUR_LOGIN/demo.git"
+  },
+  "bugs" : {
+    "url" : "http://github.com/YOUR_LOGIN/demo/issues"
+  }
+}
